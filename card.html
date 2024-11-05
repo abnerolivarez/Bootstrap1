@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Website</title>
+    <!-- Bootstrap 5.3 CSS -->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid ">
+        <a class="navbar-brand" href="index.html"><img src="image/logo.png">ABNER OLIVAREZ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <div class="dropdown hover:bg-body-secondary">
+                    <button class="btn text-secondary fw-normal dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="design.html">Design</a></li>
+                      <li><a class="dropdown-item" href="card.html">Business Card</a></li>
+                      <li><a class="dropdown-item" href="printer.html">Printer Reset Online</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown hover:bg-body-secondary">
+                    <button class="btn text-secondary fw-normal dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contact Me
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a class="dropdown-item" href="https://www.youtube.com/@abnerolivarez" target="_blank">Youtube</a></li>
+                        <li><a class="dropdown-item" href="index.html#contact">Message Me</a></li>
+                      </ul>
+                  </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="container my-5">
+    <div class="row">
+        <h3 class="text-center mt-3">Business Card</h3>
+        <!-- Images with carousel data attributes -->
+        <div class="col-md-3 mt-5">
+            <img src="image/card1.jpg" alt="card" class="img-fluid w-100 h-auto" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="0">
+        </div>
+        <div class="col-md-3 mt-5">
+            <img src="image/card2.jpg" alt="card" class="img-fluid w-100 h-auto" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="1">
+        </div>
+        <div class="col-md-3 mt-5">
+            <img src="image/card3.jpg" alt="card" class="img-fluid w-100 h-auto" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="2">
+        </div>
+        <div class="col-md-3 mt-5">
+            <img src="image/card4.jpg" alt="card" class="img-fluid w-100 h-auto" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="3">
+        </div>
+        <div class="col-md-3 mt-5">
+            <img src="image/card5.jpg" alt="card" class="img-fluid w-100 h-auto" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="4">
+        </div>
+        <div class="col-md-3 mt-5">
+            <img src="image/card6.jpg" alt="card" class="img-fluid w-100 h-auto" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="5">
+        </div>
+        <div class="col-md-3 mt-5">
+            <img src="image/card7.jpg" alt="card" class="img-fluid w-100 h-auto" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="6">
+        </div>
+        <div class="col-md-3 mt-5">
+            <img src="image/card8.jpg" alt="card" class="img-fluid w-100 h-auto" data-bs-toggle="modal" data-bs-target="#imageModal" data-bs-slide-to="7">
+        </div>
+    </div>
+</section>
+
+<!-- Modal with Carousel -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+        <!-- Close Button -->
+      <button type="button" class="btn-close ms-auto m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body p-0">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Carousel items -->
+            <div class="carousel-item active">
+              <img src="image/card1.jpg" class="d-block w-100 img-fluid" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+              <img src="image/card2.jpg" class="d-block w-100 img-fluid" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+              <img src="image/card3.jpg" class="d-block w-100 img-fluid" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+              <img src="image/card4.jpg" class="d-block w-100 img-fluid" alt="Slide 4">
+            </div>
+            <div class="carousel-item">
+              <img src="image/card5.jpg" class="d-block w-100 img-fluid" alt="Slide 5">
+            </div>
+            <div class="carousel-item">
+              <img src="image/card6.jpg" class="d-block w-100 img-fluid" alt="Slide 6">
+            </div>
+            <div class="carousel-item">
+              <img src="image/card7.jpg" class="d-block w-100 img-fluid" alt="Slide 7">
+            </div>
+            <div class="carousel-item">
+              <img src="image/card8.jpg" class="d-block w-100 img-fluid" alt="Slide 8">
+            </div>
+          </div>
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript to update the carousel's active item -->
+<script>
+  // Get all thumbnails and add click event listener
+  document.querySelectorAll('[data-bs-target="#imageModal"]').forEach((item, index) => {
+    item.addEventListener('click', () => {
+      // Set the carousel to the clicked image index
+      const carousel = new bootstrap.Carousel(document.querySelector('#carouselExample'));
+      carousel.to(index);
+    });
+  });
+  </script>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Abner Olivarez. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
